@@ -1,0 +1,16 @@
+{
+  "name": "app-coder",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/uuid": "^9.0.4",
+    "bun-types": "latest",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
