@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext", "DOM"],
+    "lib": ["ESNext"],
     "module": "esnext",
-    "target": "ESNext",
+    "target": "esnext",
     "moduleResolution": "bundler",
     "moduleDetection": "force",
     "allowImportingTsExtensions": true,
@@ -15,13 +15,8 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "allowJs": true,
-    "sourceMap": true,
     "types": [
       "bun-types" // add Bun global
-    ],
-    "baseUrl": "./src",
-    "paths": {
-    "data": ["./data.ts"]
-        }
-      }
+    ]
   }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "index.ts",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "@types/uuid": "^9.0.4",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
